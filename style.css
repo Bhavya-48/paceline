@@ -846,3 +846,46 @@ footer {
     line-height: 1.6;
     color: rgba(239, 233, 222, 0.7);
 }
+/* MOBILE FIXES */
+
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .navbar {
+        flex-wrap: wrap;
+        padding: 15px 5%;
+    }
+
+    .nav-links {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-icons {
+        gap: 5px;
+    }
+
+    .nav-icons button {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+
+    /* HERO */
+    .hero {
+        height: auto;
+        min-height: calc(100vh - 80px);
+    }
+
+    .hero img {
+        object-fit: cover;
+    }
+
+    .hero-content {
+        left: 5%;
+        right: 5%;
+        max-width: none;
+    }
+
+}
